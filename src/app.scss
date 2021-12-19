@@ -1,0 +1,28 @@
+.container {
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    .form-calculator {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background: #ffc107;
+        padding: 1em;
+        border-radius: 0.7em;
+        img {
+            width: 80px;
+            height: 80px;
+            display: block;
+            margin: 1em auto;
+        }
+        input {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
